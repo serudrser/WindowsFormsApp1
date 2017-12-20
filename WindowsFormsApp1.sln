@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{99B38D69-D19E-46E1-AA0A-F612A4C7E749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORDesignerWalkthrough", "ORDesignerWalkthrough\ORDesignerWalkthrough.csproj", "{70E2F14A-DD9E-424A-BAB7-E34C33B63CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstNewDatabaseSample", "CodeFirstNewDatabaseSample\CodeFirstNewDatabaseSample.csproj", "{01195D68-120E-4E85-9848-B0114EB25625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonExp", "SingletonExp\SingletonExp.csproj", "{5DB71132-C8BE-4EBC-A4D0-783928BC9DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstExistingDatabaseSample", "CodeFirstExistingDatabaseSample\CodeFirstExistingDatabaseSample.csproj", "{22942FC7-0A82-4417-923D-95DF4234B587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirstSample", "DatabaseFirstSample\DatabaseFirstSample.csproj", "{4CA010D6-FCCE-484D-9CC0-950E210544B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{CA60FBD8-594B-4B19-80E7-89C8E226B406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{2EB28A38-8E82-45D2-BC5D-6F0B8F150F80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{32A2420A-263E-4BCB-AF45-C72B92C7A6E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "Lambda\Lambda.csproj", "{F26B619B-0F0A-4E0D-AC6F-81DA8FD295C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAndAwait", "AsyncAndAwait\AsyncAndAwait.csproj", "{1B2F69D5-C593-4740-ACDD-B7F434AA9455}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99B38D69-D19E-46E1-AA0A-F612A4C7E749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B38D69-D19E-46E1-AA0A-F612A4C7E749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B38D69-D19E-46E1-AA0A-F612A4C7E749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B38D69-D19E-46E1-AA0A-F612A4C7E749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E2F14A-DD9E-424A-BAB7-E34C33B63CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E2F14A-DD9E-424A-BAB7-E34C33B63CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E2F14A-DD9E-424A-BAB7-E34C33B63CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E2F14A-DD9E-424A-BAB7-E34C33B63CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01195D68-120E-4E85-9848-B0114EB25625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01195D68-120E-4E85-9848-B0114EB25625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01195D68-120E-4E85-9848-B0114EB25625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01195D68-120E-4E85-9848-B0114EB25625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB71132-C8BE-4EBC-A4D0-783928BC9DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB71132-C8BE-4EBC-A4D0-783928BC9DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB71132-C8BE-4EBC-A4D0-783928BC9DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB71132-C8BE-4EBC-A4D0-783928BC9DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22942FC7-0A82-4417-923D-95DF4234B587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22942FC7-0A82-4417-923D-95DF4234B587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22942FC7-0A82-4417-923D-95DF4234B587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22942FC7-0A82-4417-923D-95DF4234B587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA010D6-FCCE-484D-9CC0-950E210544B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA010D6-FCCE-484D-9CC0-950E210544B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA010D6-FCCE-484D-9CC0-950E210544B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA010D6-FCCE-484D-9CC0-950E210544B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA60FBD8-594B-4B19-80E7-89C8E226B406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA60FBD8-594B-4B19-80E7-89C8E226B406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA60FBD8-594B-4B19-80E7-89C8E226B406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA60FBD8-594B-4B19-80E7-89C8E226B406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB28A38-8E82-45D2-BC5D-6F0B8F150F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB28A38-8E82-45D2-BC5D-6F0B8F150F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB28A38-8E82-45D2-BC5D-6F0B8F150F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB28A38-8E82-45D2-BC5D-6F0B8F150F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A2420A-263E-4BCB-AF45-C72B92C7A6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A2420A-263E-4BCB-AF45-C72B92C7A6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A2420A-263E-4BCB-AF45-C72B92C7A6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A2420A-263E-4BCB-AF45-C72B92C7A6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26B619B-0F0A-4E0D-AC6F-81DA8FD295C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26B619B-0F0A-4E0D-AC6F-81DA8FD295C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26B619B-0F0A-4E0D-AC6F-81DA8FD295C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26B619B-0F0A-4E0D-AC6F-81DA8FD295C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2F69D5-C593-4740-ACDD-B7F434AA9455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2F69D5-C593-4740-ACDD-B7F434AA9455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2F69D5-C593-4740-ACDD-B7F434AA9455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2F69D5-C593-4740-ACDD-B7F434AA9455}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {065BFF46-3202-4CDD-B067-63D8055CAB11}
+	EndGlobalSection
+EndGlobal

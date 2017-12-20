@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AdventureWorks2016CTP3" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SERGIU\MSSQLSERVER2016;Initial Catalog=AdventureWorks2016CTP3;Integrated Security=True" SettingsObjectName="ORDesignerWalkthrough.Properties.Settings" SettingsPropertyName="AdventureWorks2016CTP3ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Person.vAdditionalContactInfo" Member="vAdditionalContactInfos">
+    <Type Name="vAdditionalContactInfo">
+      <Column Name="BusinessEntityID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MiddleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TelephoneNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TelephoneSpecialInstructions" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Street" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StateProvince" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PostalCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CountryRegion" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HomeAddressSpecialInstructions" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EMailAddress" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="EMailSpecialInstructions" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EMailTelephoneNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="rowguid" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.test11" Member="test11s">
+    <Type Name="test11">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="bool" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="bool1" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
