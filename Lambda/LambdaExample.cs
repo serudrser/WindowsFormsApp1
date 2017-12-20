@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Lambda
-{    
+{
     class LambdaExample
     {
         // Create a data source by using a collection initializer.
@@ -22,7 +22,7 @@ namespace Lambda
    new Student {First="Lance", Last="Tucker", ID=119, Scores= new List<int> {68, 79, 88, 92}},
    new Student {First="Terry", Last="Adams", ID=120, Scores= new List<int> {99, 82, 81, 79}},
    new Student {First="Eugene", Last="Zabokritski", ID=121, Scores= new List<int> {96, 85, 91, 60}},
-   new Student {First="Michael", Last="Tucker", ID=122, Scores= new List<int> {94, 92, 91, 90} }
+   new Student {First="Michael", Last="Tucker", ID=122, Scores= new List<int> {94, 92, 91, 91} }
 };
 
         public LambdaExample()
