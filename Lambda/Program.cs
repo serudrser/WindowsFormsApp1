@@ -19,6 +19,10 @@ namespace Lambda
 
         static void Main(string[] args)
         {
+            //LambdaExample3 l3 = new LambdaExample3();
+
+            IEnumerator___IEnumerable ien = new IEnumerator___IEnumerable();
+
             // use linq with a DataSet from a DataTable
             LinqToDataSet();
 
